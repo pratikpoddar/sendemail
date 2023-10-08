@@ -89,6 +89,7 @@ with st.form("my_form"):
     - If any relevant news is used as a hook make sure to consider the tone of the news.
     - No need to use over the top flattery or unnecessary appreciation.
     - End the email with a call-to-action such as asking them give a suitable time to discuss more.
+    - End with a signature without email address or phone number.
     """
 
     PROMPT = PromptTemplate(
