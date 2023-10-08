@@ -1,10 +1,7 @@
 import os
 import requests
 import numpy as np
-
-from bs4 import BeautifulSoup
 from inscriptis import get_text
-
 import langchain
 from langchain.llms import OpenAI
 from langchain.chat_models import ChatOpenAI
@@ -17,9 +14,7 @@ from langchain.utilities import TextRequestsWrapper
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.chains import LLMChain, HypotheticalDocumentEmbedder
 from langchain.vectorstores import Chroma
-
 import streamlit as st
-import numpy as np
 
 st.title('Apply to 200 jobs with personalised emails with a single click!')
 
