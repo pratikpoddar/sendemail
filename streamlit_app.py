@@ -2,7 +2,6 @@ import os
 import requests
 import numpy as np
 from urllib.error import HTTPError
-from urlextract import URLExtract
 
 from bs4 import BeautifulSoup
 import urllib.request
